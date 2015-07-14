@@ -1,3 +1,20 @@
-/** {  
-border: 1px dashed red
-}*/
+* {
+  background: blue;
+}
+
+h1 {
+  color: yellow;
+}
+
+div table {
+  border: 10px solid teal;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+div table td {  
+  border: 2px solid teal;
+  color: white;
+}
