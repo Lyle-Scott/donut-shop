@@ -53,14 +53,17 @@ var storeInput = function() {
   var maxInput = document.getElementById('maxInput').value;
   var salesInput = document.getElementById('salesInput').value;
   var userInput = userSubmittedSite(siteInput, minInput, maxInput, salesInput);
-  shops.push(userInput);
-
-  userInput.render();
-  for (var i = 0; i < shops.length-1; i++) {
-    if (userInput.site == shops[i].site) {
-      shops[i] = userInput;
-      shops.splice(-1, 1);
-      renderAll();
+  if (isNaN(minInput) || isNaN(maxInput) || isNaN(salesInput)) {
+    return null;
+  } else {
+    shops.push(userInput);
+    userInput.render();
+    for (var i = 0; i < shops.length-1; i++) {
+      if (userInput.site == shops[i].site) {
+        shops[i] = userInput;
+        shops.splice(-1, 1);
+        renderAll();
+      }
     }
   }
 };

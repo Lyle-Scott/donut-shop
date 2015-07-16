@@ -1,44 +1,78 @@
-* {
-  background: blue;
+body {
+  background-image: "images/MorningStar.png";  
+  background: navy;
+  max-width: 800px;
+  zoom: 90%;
 }
 
 h1 {
   color: yellow;
+  font-family: fantasy;
+  text-shadow: 2px 2px #ff0000;
 }
 
-div table {
-  border: 10px solid teal;
+#DonutShops {
+  float: left;
+  border: 10px solid RosyBrown;
   color: white;
   border-radius: 15%;
   margin: 20px 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+    font-family: cursive;
+  font-size: 12pt;
 }
 
-table tr {
-
+#splat {
+  font-family: fantasy;
+  color: yellow;
 }
 
 div table td {  
-  border: 2px solid teal;
+  border: 2px solid RosyBrown;
   color: white;
 }
 
-input {
+#newShop {
+  float:right;
+}
+
+fieldset {
+  width: 300px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  background-color: maroon;
+}
+
+h4 {
+  color: yellow;
+  font-family: fantasy;
+  text-shadow: 1px 1px #ff0000;
+  text-align: center;
+  background-color: maroon;
+}
+
+#labels {
+  float: left;
+  margin-left: 5px;
+  font-family: cursive;
+  color: white;
+  background-color: maroon;
+}
+
+#inputs {
   float: right;
-  background-color: white;
-  margin-right: 500px;
+  text-align: right;
+  background-color: maroon;
+  margin-right: 5px;
+  line-height: 160%;
 }
 
 button {
-  float: right;
-  margin-right: 500px;
-  background-color: white;
-}
-
-legend {
-  color: white;
-}
-
-p {
-  color: white;
+  margin-left: 50px;
+  background-color: yellow;
+  color: navy;
+  font-family: cursive;
+  font-size: 10px;
+  text-shadow: 1px 1px #ff0000;
 }
