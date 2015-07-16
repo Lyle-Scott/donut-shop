@@ -3,11 +3,11 @@ var Location = function(site, minHourlyCustomers, maxHourlyCustomers, averageHou
   this.minHourlyCustomers = minHourlyCustomers;
   this.maxHourlyCustomers = maxHourlyCustomers;
   this.averageHourlySales = averageHourlySales;
-  // this.hourlySales=[];
-  // this.dailySales=0;
 };
 
 Location.prototype.calculateSales = function() {
+  this.hourlySales = [];
+  this.dailySales = 0;
   for (var i = 0; i < 11; i++) {
     this.dailySales += this.hourlySales[i] = (Math.floor((Math.random() * (this.maxHourlyCustomers - this.minHourlyCustomers + 1) + this.minHourlyCustomers) * this.averageHourlySales));
   };
@@ -19,13 +19,11 @@ Location.prototype.render = function () {
   newRow.id=this.site;
   newRow.innerHTML = this.site;
   getTable.appendChild(newRow);
-  this.hourlySales=[];
-  this.dailySales=0;
   this.calculateSales();
 
-  for (var i = 1; i < 12; i++) {
+  for (var i = 0; i < 11; i++) {
     var newCell = document.createElement('td');
-    newCell.innerHTML = this.hourlySales[i-1];
+    newCell.innerHTML = this.hourlySales[i];
     newRow.appendChild(newCell);
   };
 
