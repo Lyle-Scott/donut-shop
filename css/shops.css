@@ -1,13 +1,14 @@
 body {
   background-image: "images/MorningStar.png";  
   background: navy;
-  max-width: 800px;
+  min-width: 800px;
+  max-width: 1200px;
   zoom: 90%;
 }
 
 h1 {
   color: yellow;
-  font-family: fantasy;
+  font-family: rock salt;
   text-shadow: 2px 2px #ff0000;
 }
 
@@ -19,13 +20,27 @@ h1 {
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
   background-color: maroon;
-    font-family: cursive;
+    font-family: Calligraffitti;
   font-size: 12pt;
 }
 
 #splat {
-  font-family: fantasy;
+  font-family: rock salt;
   color: yellow;
+}
+
+#links {
+float: left;
+}
+
+.link {
+  font-family: Fresca;
+  font-weight: bold;
+  font-size: 18pt;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
 
 div table td {  
@@ -46,7 +61,7 @@ fieldset {
 
 h4 {
   color: yellow;
-  font-family: fantasy;
+  font-family: rock salt;
   text-shadow: 1px 1px #ff0000;
   text-align: center;
   background-color: maroon;
@@ -55,7 +70,7 @@ h4 {
 #labels {
   float: left;
   margin-left: 5px;
-  font-family: cursive;
+  font-family: Calligraffitti;
   color: white;
   background-color: maroon;
 }
@@ -72,7 +87,7 @@ button {
   margin-left: 50px;
   background-color: yellow;
   color: navy;
-  font-family: cursive;
+  font-family: Calligraffitti;
   font-size: 10px;
   text-shadow: 1px 1px #ff0000;
 }

@@ -10,6 +10,9 @@ Location.prototype.calculateSales = function() {
   this.dailySales = 0;
   for (var i = 0; i < 11; i++) {
     this.dailySales += this.hourlySales[i] = (Math.floor((Math.random() * (this.maxHourlyCustomers - this.minHourlyCustomers + 1) + this.minHourlyCustomers) * this.averageHourlySales));
+    console.log("One " + this.hourlySales);
+    this.dailySales += this.hourlySales[i] = (Math.floor((Math.random() * (this.maxHourlyCustomers - this.minHourlyCustomers + 1) + this.minHourlyCustomers) * this.averageHourlySales));
+        console.log("Two " + this.hourlySales);
   };
 };
 
