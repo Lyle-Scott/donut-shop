@@ -9,9 +9,27 @@ body {
 h1 {
   color: yellow;
   font-family: rock salt;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px Rosybrown;
+  text-align: center;
 }
-
+/*.boxes {
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+*/
+#death {
+  float: right;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
 #DonutShops {
   float: left;
   border: 10px solid RosyBrown;
@@ -34,13 +52,20 @@ float: left;
 }
 
 .link {
-  font-family: Fresca;
+  font-family: Chewy;
   font-weight: bold;
   font-size: 18pt;
 }
-a {
+
+a:link {
   color: white;
   text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: maroon;
 }
 
 div table td {  
@@ -50,6 +75,7 @@ div table td {
 
 #newShop {
   float:right;
+  vertical-align: super;
 }
 
 fieldset {
@@ -62,7 +88,7 @@ fieldset {
 h4 {
   color: yellow;
   font-family: rock salt;
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 1px 1px Rosybrown;
   text-align: center;
   background-color: maroon;
 }
@@ -89,5 +115,18 @@ button {
   color: navy;
   font-family: Calligraffitti;
   font-size: 10px;
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 1px 1px RosyBrown;
+}
+#image1 {
+  float: left;
+  position: absolute;
+  z-index: -1;
+  vertical-align: super;
+}
+
+#image2 {
+  float: right;
+  position: absolute;
+  right: 0px;
+  z-index: -1;
 }
