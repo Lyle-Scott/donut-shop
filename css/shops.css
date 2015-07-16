@@ -1,0 +1,132 @@
+body {
+  background-image: "images/MorningStar.png";  
+  background: navy;
+  min-width: 800px;
+  max-width: 1200px;
+  zoom: 90%;
+}
+
+h1 {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 2px 2px Rosybrown;
+  text-align: center;
+}
+/*.boxes {
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+*/
+#death {
+  float: right;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+#DonutShops {
+  float: left;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+    font-family: Calligraffitti;
+  font-size: 12pt;
+}
+
+#splat {
+  font-family: rock salt;
+  color: yellow;
+}
+
+#links {
+float: left;
+}
+
+.link {
+  font-family: Chewy;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: maroon;
+}
+
+div table td {  
+  border: 2px solid RosyBrown;
+  color: white;
+}
+
+#newShop {
+  float:right;
+  vertical-align: super;
+}
+
+fieldset {
+  width: 300px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  background-color: maroon;
+}
+
+h4 {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 1px 1px Rosybrown;
+  text-align: center;
+  background-color: maroon;
+}
+
+#labels {
+  float: left;
+  margin-left: 5px;
+  font-family: Calligraffitti;
+  color: white;
+  background-color: maroon;
+}
+
+#inputs {
+  float: right;
+  text-align: right;
+  background-color: maroon;
+  margin-right: 5px;
+  line-height: 160%;
+}
+
+button {
+  margin-left: 50px;
+  background-color: yellow;
+  color: navy;
+  font-family: Calligraffitti;
+  font-size: 10px;
+  text-shadow: 1px 1px RosyBrown;
+}
+#image1 {
+  float: left;
+  position: absolute;
+  z-index: -1;
+  vertical-align: super;
+}
+
+#image2 {
+  float: right;
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+}
