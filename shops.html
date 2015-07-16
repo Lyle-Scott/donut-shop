@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link type="text/css" rel="stylesheet" href="css/shops.css"/>
+  <meta charset="UTF-8">
+  <title>title</title>
+ </head>
+ <body>
+  
+  <h1>Donut Shop Sales Projections</h1>
+  
+  <div>
+    <table id="DonutShops">
+      <tr>
+      <th>Location</th><th>7a</th><th>8a</th><th>9a</th><th>10a</th><th>11a</th><th>12p</th><th>1p</th><th>2p</th><th>3p</th><th>4p</th><th>5p</th><th>Total</th>
+    </tr>
+    </table>
+  </div> 
+
+    <div id="newShop">
+      <fieldset>
+        <legend>Create or edit a new location</legend>
+      <form id="createStoreForm">
+      <p><label for="site">Site:</label>   
+        <input type ="text" id="userSite" placeholder="site" required=true>
+        </input>
+      </p>
+      <p><label for="min">Min customers/hour:</label>   
+        <input type ="text" id="minInput" placeholder="0" required=true>
+        </input>
+      </p>
+      <p><label for="max">Max customers/hour:</label>   
+        <input type ="text" id="maxInput" placeholder="0" required=true>
+        </input>
+      </p>
+      <p><lavel for="sales">Average sales/hour:</label>   
+        <input type ="text" id="salesInput" placeholder="0" required=true>
+        </input>
+      </p>
+      <p>
+        <button type="button" id="btn">Submit data</button>
+      </p>
+    </form>
+    </fieldset>
+    </div>
+
+  <script src="js/shops.js"></script>
+ </body>
+</html>

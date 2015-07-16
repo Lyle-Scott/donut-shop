@@ -1,0 +1,44 @@
+* {
+  background: blue;
+}
+
+h1 {
+  color: yellow;
+}
+
+div table {
+  border: 10px solid teal;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+table tr {
+
+}
+
+div table td {  
+  border: 2px solid teal;
+  color: white;
+}
+
+input {
+  float: right;
+  background-color: white;
+  margin-right: 500px;
+}
+
+button {
+  float: right;
+  margin-right: 500px;
+  background-color: white;
+}
+
+legend {
+  color: white;
+}
+
+p {
+  color: white;
+}
