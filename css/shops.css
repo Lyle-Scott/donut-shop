@@ -1,7 +1,7 @@
 body {
   background-image: "images/MorningStar.png";  
   background: navy;
-  min-width: 800px;
+  min-width: 1000px;
   max-width: 1200px;
   zoom: 90%;
 }
@@ -55,6 +55,26 @@ float: left;
   font-family: Chewy;
   font-weight: bold;
   font-size: 18pt;
+}
+
+#donut1 {
+  position: relative;
+  left: 50px;
+}
+
+#donut2 {
+  position: relative;
+  left: 200px;
+}
+
+#donut3 {
+  position: relative;
+  left: 350px;
+}
+
+#donut4 {
+  position: relative;
+  left: 500px;
 }
 
 a:link {
@@ -119,12 +139,12 @@ button {
 }
 #image1 {
   float: left;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   vertical-align: super;
 }
 
-#image2 {
+#image2 {z
   float: right;
   position: absolute;
   right: 0px;
