@@ -14,8 +14,8 @@ h1 {
 
 #octopus {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -35px;
+  right: 50px;
 }
 
 /*.boxes {
@@ -178,4 +178,90 @@ button {
   background-color: maroon;
   width:85%; 
   max-width:1200px; 
+}
+
+/* Animation section */
+.circle {
+  /* display:none; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 800;
+  background: #b5212b;
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .20s;
+  animation-duration: .30s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.content {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1.0s;
+  animation-duration: 1.0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.5s;
+}
+.splatter {
+  position: absolute;
+  top: -10px;
+  right: -100px;
+  z-index: 799;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; 
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
 }
