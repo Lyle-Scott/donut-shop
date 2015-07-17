@@ -1,5 +1,4 @@
-body {
-  background-image: "images/MorningStar.png";  
+body { 
   background: navy;
   min-width: 1000px;
   max-width: 1200px;
@@ -12,6 +11,13 @@ h1 {
   text-shadow: 2px 2px Rosybrown;
   text-align: center;
 }
+
+#octopus {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 /*.boxes {
   border: 10px solid RosyBrown;
   color: white;
@@ -105,7 +111,7 @@ fieldset {
   background-color: maroon;
 }
 
-h4 {
+.scarytext {
   color: yellow;
   font-family: rock salt;
   text-shadow: 1px 1px Rosybrown;
@@ -144,9 +150,32 @@ button {
   vertical-align: super;
 }
 
-#image2 {z
+#image2 {
   float: right;
-  position: absolute;
+  position: fixed;
   right: 0px;
+  bottom: 0px;
   z-index: -1;
+}
+
+#image3 {
+  position: fixed;
+  z-index: -3
+  float: left;
+  bottom: -20px;
+  height: 292px;
+  width: 200px;
+}
+
+#bottombar {
+  position: relative;
+  top: 475px;
+  left: 50px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+  width:85%; 
+  max-width:1200px; 
 }

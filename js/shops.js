@@ -1,4 +1,3 @@
-var headers = ["Locations", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "Total"];
 
 var Location = function(site, minHourlyCustomers, maxHourlyCustomers, averageHourlySales) {
   this.site = site;
@@ -42,7 +41,8 @@ var renderAll = function() {
   while (getTable.firstChild) {
     getTable.removeChild(getTable.firstChild);
   };
-
+  
+  var headers = ["Locations", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "Total"];
   var headerRow = document.createElement('tr');
   headerRow.id="headerRow";
   getTable.appendChild(headerRow);
