@@ -148,6 +148,13 @@ button {
   position: fixed;
   z-index: -1;
   vertical-align: super;
+  transform-origin: 20% 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#image1:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(100deg);
 }
 
 #image2 {
@@ -163,16 +170,17 @@ button {
   z-index: -800;
   float: left;
   bottom: 30px;
-  left: 80px;
+  left: 100px;
   height: 292px;
   width: 200px;
 
+  transform-origin: 0% 100%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
 #image3:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(-45deg);
+  transform: rotate(-100deg);
 }
 
 #eyeball {
