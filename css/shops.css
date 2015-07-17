@@ -1,0 +1,181 @@
+body { 
+  background: navy;
+  min-width: 1000px;
+  max-width: 1200px;
+  zoom: 90%;
+}
+
+h1 {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 2px 2px Rosybrown;
+  text-align: center;
+}
+
+#octopus {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/*.boxes {
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+*/
+#death {
+  float: right;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+#DonutShops {
+  float: left;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+    font-family: Calligraffitti;
+  font-size: 12pt;
+}
+
+#splat {
+  font-family: rock salt;
+  color: yellow;
+}
+
+#links {
+float: left;
+}
+
+.link {
+  font-family: Chewy;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+#donut1 {
+  position: relative;
+  left: 50px;
+}
+
+#donut2 {
+  position: relative;
+  left: 200px;
+}
+
+#donut3 {
+  position: relative;
+  left: 350px;
+}
+
+#donut4 {
+  position: relative;
+  left: 500px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: maroon;
+}
+
+div table td {  
+  border: 2px solid RosyBrown;
+  color: white;
+}
+
+#newShop {
+  float:right;
+  vertical-align: super;
+}
+
+fieldset {
+  width: 300px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  background-color: maroon;
+}
+
+.scarytext {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 1px 1px Rosybrown;
+  text-align: center;
+  background-color: maroon;
+}
+
+#labels {
+  float: left;
+  margin-left: 5px;
+  font-family: Calligraffitti;
+  color: white;
+  background-color: maroon;
+}
+
+#inputs {
+  float: right;
+  text-align: right;
+  background-color: maroon;
+  margin-right: 5px;
+  line-height: 160%;
+}
+
+button {
+  margin-left: 50px;
+  background-color: yellow;
+  color: navy;
+  font-family: Calligraffitti;
+  font-size: 10px;
+  text-shadow: 1px 1px RosyBrown;
+}
+#image1 {
+  float: left;
+  position: fixed;
+  z-index: -1;
+  vertical-align: super;
+}
+
+#image2 {
+  float: right;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+#image3 {
+  position: fixed;
+  z-index: -3
+  float: left;
+  bottom: -20px;
+  height: 292px;
+  width: 200px;
+}
+
+#bottombar {
+  position: relative;
+  top: 475px;
+  left: 50px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+  width:85%; 
+  max-width:1200px; 
+}
