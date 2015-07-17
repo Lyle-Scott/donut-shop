@@ -41,7 +41,7 @@ var renderAll = function() {
   while (getTable.firstChild) {
     getTable.removeChild(getTable.firstChild);
   };
-  
+
   var headers = ["Locations", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "Total"];
   var headerRow = document.createElement('tr');
   headerRow.id="headerRow";
@@ -92,5 +92,8 @@ var shops = [shop1, shop2, shop3, shop4, shop5];
 
 var createStoreForm = document.getElementById("btn");
 createStoreForm.addEventListener('click', storeInput); 
+
+var rotateTentacle = document.getElementById("image3");
+rotateTentacle.addEventListener('mouseover', image3.hover)
 
 renderAll();
