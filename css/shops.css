@@ -162,8 +162,8 @@ button {
   position: fixed;
   z-index: -800;
   float: left;
-  bottom: 0px;
-  left: 70px;
+  bottom: 30px;
+  left: 80px;
   height: 292px;
   width: 200px;
 
@@ -178,7 +178,7 @@ button {
 #eyeball {
   position: fixed;
   z-index: -300;
-  bottom: -175px;
+  bottom: -150px;
   left: -75px;
   height: 300px;
   width: 300px;
