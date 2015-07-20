@@ -1,0 +1,299 @@
+body { 
+  background: navy;
+  min-width: 1000px;
+  max-width: 1600px;
+  zoom: 90%;
+}
+
+h1 {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 2px 2px Rosybrown;
+  text-align: center;
+}
+
+#octopus {
+  position: absolute;
+  top: -35px;
+  right: 50px;
+}
+
+/*.boxes {
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+*/
+#death {
+  float: right;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+}
+#DonutShops {
+  float: left;
+  border: 10px solid RosyBrown;
+  color: white;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+    font-family: Calligraffitti;
+  font-size: 12pt;
+}
+
+#splat {
+  font-family: rock salt;
+  color: yellow;
+}
+
+#links {
+float: left;
+}
+
+.link {
+  font-family: Chewy;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+#donut1 {
+  position: relative;
+  left: 50px;
+}
+
+#donut2 {
+  position: relative;
+  left: 200px;
+}
+
+#donut3 {
+  position: relative;
+  left: 350px;
+}
+
+#donut4 {
+  position: relative;
+  left: 500px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: maroon;
+}
+
+div table td {  
+  border: 2px solid RosyBrown;
+  color: white;
+}
+
+#newShop {
+  float:right;
+  vertical-align: super;
+}
+
+fieldset {
+  width: 300px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  background-color: maroon;
+}
+
+.scarytext {
+  color: yellow;
+  font-family: rock salt;
+  text-shadow: 1px 1px Rosybrown;
+  text-align: center;
+  background-color: maroon;
+}
+
+#labels {
+  float: left;
+  margin-left: 5px;
+  font-family: Calligraffitti;
+  color: white;
+  background-color: maroon;
+}
+
+#inputs {
+  float: right;
+  text-align: right;
+  background-color: maroon;
+  margin-right: 5px;
+  line-height: 160%;
+}
+
+button {
+  margin-left: 50px;
+  background-color: yellow;
+  color: navy;
+  font-family: Calligraffitti;
+  font-size: 10px;
+  text-shadow: 1px 1px RosyBrown;
+}
+#image1 {
+  float: left;
+  position: fixed;
+  z-index: -1;
+  vertical-align: super;
+  transform-origin: 20% 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#image1:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(100deg);
+}
+
+#image2 {
+  float: right;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+#image3 {
+  position: fixed;
+  z-index: -800;
+  float: left;
+  bottom: 30px;
+  left: 100px;
+  height: 292px;
+  width: 200px;
+
+  transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+#image3:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(-100deg);
+}
+
+#eyeball {
+  position: fixed;
+  z-index: -300;
+  bottom: -150px;
+  left: -75px;
+  height: 300px;
+  width: 300px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#eyeball:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#bottombar {
+  position: relative;
+  top: 475px;
+  left: 50px;
+  border: 10px solid RosyBrown;
+  border-radius: 15%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: maroon;
+  width:85%; 
+  max-width:1600px; 
+}
+
+/* Animation section */
+.circle {
+  /* display:none; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -800;
+  background: #b5212b;
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .20s;
+  animation-duration: .30s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.content {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1.0s;
+  animation-duration: 1.0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.5s;
+}
+.splatter {
+  position: absolute;
+  top: -10px;
+  right: -100px;
+  z-index: -801;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; 
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+}
