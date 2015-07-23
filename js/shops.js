@@ -94,7 +94,7 @@ var createStoreForm = document.getElementById("btn");
 createStoreForm.addEventListener('click', storeInput); 
 
 var rotateTentacle = document.getElementById("image3");
-rotateTentacle.addEventListener('mouseover', image3.hover)
+rotateTentacle.addEventListener('mouseover', image3.hover);
 
 
 renderAll();
